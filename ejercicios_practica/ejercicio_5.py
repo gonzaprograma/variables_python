@@ -10,13 +10,22 @@
 # Ejemplos variables de texto
 
 # Ingrese dos palabras y arme combinaciones con ella
-print('Ingrese palabra 1:')
+print('Ingrese palabra 1:', 'CORDOBA')
 palabra_1 = str(input())
 
-print('Ingrese palabra 2:')
+print('Ingrese palabra 2:', 'ARROYITO')
 palabra_2 = str(input())
 
 # De la primera palabra tome las primeras tres letras, utilice el operador :
+sub_text1 = palabra_1 [0:3]
+
 # De la segunda palabra tome las primeras dos letras, utilice el operador :
+sub_text2 = palabra_2 [0:2]
+
 # Formar una nueva palabra con los recortes solicitados
+
+nueva_palabra = sub_text2 + sub_text1
+# NOTA DEL ALUMNO: LA IDEA ES FORMAR EL NOMBRE DE LA MARCA "ARCOR"
+
 # Imprima en pantalla los resultados
+print('la nueva palabra al mezclar Arroyito y Cordoba es:', nueva_palabra)
